@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="fbSuite">
+  <test name="fbgroupTest">
+  <groups>
+  <run>
+  <include name="regression"></include>
+  <exclude name="sanity"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="testgroupings.FBgroup_Test"/>
+    </classes>
+  </test> <!-- fbgroupTest -->
+</suite> <!-- fbSuite -->
